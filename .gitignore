@@ -1,0 +1,14 @@
+data/aws-iot/*
+!data/aws-iot/README.md
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.h
+.env
+.env.*
+!.env.example
+.vscode/
+build/
+.DS_Store
